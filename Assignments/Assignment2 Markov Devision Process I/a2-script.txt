@@ -1,0 +1,10 @@
+--Question 1
+select m.name,m.email
+from members As m, cars As c
+where m.email = c.owner
+    And c.cno <> c.cno;
+-- intersect
+-- select *
+-- from members As m,cars as c,rides as r
+-- where c.cno = r.cno;
+
